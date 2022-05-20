@@ -1,0 +1,331 @@
+body {
+    background-color: rgb(219, 217, 217);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.welcome-message {
+    font-size: 35px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 35px;
+}
+
+h1 {
+    display: grid;
+    justify-content: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+a {
+    color: rgb(0, 119, 255);
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+}
+
+a:active {
+    color: rgb(255, 0, 221);
+}
+
+/* a:visited {
+    text-decoration: underline;
+} */
+
+.header {
+    background: rgba(236, 246, 255, 0.767);
+    display: flex;
+    border-radius: 20px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+.findpeople-header {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.friends-header {
+    margin-right: 20px;
+}
+
+.chat-header {
+    margin-right: 20px;
+}
+
+.logout-header {
+    margin-left: 1100px;
+}
+
+.registration-section {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.form-registration {
+    margin-bottom: 20px;
+}
+
+.login-section {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.form-login {
+    margin-bottom: 20px;
+}
+
+.resetpassword-section {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.profile-container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.findpeople-section {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.findpeople-content {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+.photosinfindpeople {
+    width: 300px;
+    height: 300px;
+}
+
+.otherprofile-section {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.chat-section {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+
+input {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.profilePicByDefault {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 40px;
+    box-shadow: 0px 2px 20px 5px;
+}
+.profilePicSmallByDefault {
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.otherprofiles-photos {
+    box-shadow: 0px 2px 20px 5px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.friend-profile-photo {
+    width: 300px;
+    height: 300px;
+}
+
+.wannabees-profile-photo {
+    width: 300px;
+    height: 300px;
+}
+
+.modal {
+    position: fixed;
+    z-index: 1;
+    height: 90%;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px 10px;
+    top: 4%;
+    left: 5%;
+    display: grid;
+    background-color: white;
+}
+
+.modalContent {
+    display: inline-grid;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+}
+
+.inputmodal {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 40px;
+    border: none;
+}
+
+.close-modal {
+    position: absolute;
+    top: 1%;
+    right: 4%;
+    cursor: pointer;
+}
+
+.textAreaBio {
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bio-content {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+
+.friends-container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+.wannabees-container {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 50px;
+}
+
+.chath1 {
+    font-size: 25px;
+}
+.chatsavedmessage {
+    background-color: white;
+    width: 500px;
+    height: 120px;
+    border: 3px solid black;
+    border-radius: 30px;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 12px 1px;
+}
+
+.chat-textarea {
+    width: 800px;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.comments-container {
+    width: 100px;
+    height: 100px;
+}
+
+.comment-textarea {
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    appearance: button;
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: ITCAvantGardeStd-Bk, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    height: 40px;
+    /* touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap; */
+}
+
+button:focus {
+    text-decoration: none;
+}
+
+button:hover {
+    text-decoration: none;
+}
+
+button:active {
+    box-shadow: rgba(0, 0, 0, 0.125) 0 3px 5px inset;
+    outline: 0;
+}
+
+button:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
